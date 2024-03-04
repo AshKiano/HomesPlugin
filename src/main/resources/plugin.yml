@@ -1,0 +1,10 @@
+name: HomesPlugin
+version: '${project.version}'
+main: com.ashkiano.homesplugin.HomesPlugin
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  sethome:
+    description: Sets the player's home.
+  home:
+    description: Teleports the player to their home.
