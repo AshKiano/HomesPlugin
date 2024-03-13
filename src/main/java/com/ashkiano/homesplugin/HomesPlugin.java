@@ -17,6 +17,7 @@ public class HomesPlugin extends JavaPlugin {
         saveDefaultConfig();
 
         Metrics metrics = new Metrics(this, 21220);
+        this.getLogger().info("Thank you for using the HomesPlugin plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
