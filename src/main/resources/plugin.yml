@@ -3,6 +3,8 @@ version: '${project.version}'
 main: com.ashkiano.homesplugin.HomesPlugin
 api-version: '1.16'
 authors: [ AshKiano ]
+#it is really dependent on AshLib, but cannot be there because i want a custom missing library message
+#depend: [AshLib]
 commands:
   sethome:
     description: Sets the player's home.
